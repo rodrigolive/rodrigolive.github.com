@@ -1,0 +1,36 @@
+h1. El valor de Google Mapas y del "Cómo llegar"
+
+Me he dado cuenta de algo importante. 
+Un documento inteligente y muy divertido, "Hyper-Local, Direction-Based Ranking of Places" (PDF), que se presentará en VLDB 2011 a finales de este año por un Googlers pocos. 
+
+La idea central es que, cuando la gente pregunta cómo ir de A a B, se demuenstra que la gente está
+interesada en B, sobre todo si resulta que está cerca de A.
+
+Algunos de los grandes motores de búsqueda
+tienen enormes registros de personas preguntando por direcciones de A a B,
+cientos de millones de personas y miles de millones de consultas de la A a la B.
+Y, al parecer estos datos pueden ser tanto o más útil que comentarios de los usuarios de las empresas y tal vez los senderos de GPS para la clasificación de búsqueda local, recomendar lugares cercanos, y se ocupa de tal local y personalizado y publicidad. 
+
+Del documento en cuestión:
+
+bq. Una consulta que pide direcciones desde una ubicación de la A a la ubicación B es dar a entender que un usuario está interesado en viajar a B y por lo tanto es un voto que la ubicación B es interesante. Tales consultas dirección generados por los usuarios son especialmente interesantes porque son numerosas y contienen ubicaciones precisas. 
+
+Dirección consultas [puede] ser explotada para la clasificación de los lugares
+... Por lo menos 20% de las consultas web tienen la intención de locales ...
+[Y móviles] pueden ser dos veces mayor. 
+
+Un estudio muestra que los registros de "cómo llegar"  pueden servir de una fuerte indicación,
+además de los comentarios, para clasificar el lugar ...
+Estos hallazgos son importantes porque la dirección de marcha los registros de órdenes de magnitud
+más frecuentes que los comentarios de los usuarios, que son difíciles de obtener.
+Además, los registros proporcionan pruebas en tiempo real de sentimientos cambiantes ... y están disponibles para un rango más diverso de lugares. 
+Lo que es realmente interesante es que, no sólo se trata de datos más
+fáciles y más baratos de obtener que las opiniones de clientes, pero también que la clasificación es más actual
+(si, por ejemplo, un negocio cierra sus puertas o si cambia de propietario o de área de negocio) y una cobertura mucho más completa. 
+
+Me resulta sorprendente que Google no haya hecho uso de estos datos.
+De hecho, el documento sugiere que Google está empezando a usarlos.
+Al final del artículo, los autores resaltan que esperan para investigar qué tipos de consultas
+se benefician más de estos datos y
+luego ver la personalización de la clasificación basada en la búsqueda específica de cada usuario y la historia de la localización.
+
