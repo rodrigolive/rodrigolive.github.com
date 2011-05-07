@@ -1,4 +1,11 @@
-h1. El valor de Google Mapas y del "Cómo llegar"
+---
+layout: post
+title: El valor de Google Mapas y del "Cómo llegar"
+---
+
+h1. {{ page.title }}
+
+p(meta). 05 Mayo 2010 - Madrid
 
 Me he dado cuenta de algo importante. 
 Un documento inteligente y muy divertido, "Hyper-Local, Direction-Based Ranking of Places" (PDF), que se presentará en VLDB 2011 a finales de este año por un Googlers pocos. 
@@ -33,4 +40,5 @@ De hecho, el documento sugiere que Google está empezando a usarlos.
 Al final del artículo, los autores resaltan que esperan para investigar qué tipos de consultas
 se benefician más de estos datos y
 luego ver la personalización de la clasificación basada en la búsqueda específica de cada usuario y la historia de la localización.
+
 
