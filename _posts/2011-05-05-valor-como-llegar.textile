@@ -5,29 +5,27 @@ title: El valor de Google Maps y el "Cómo llegar"
 
 h1. {{ page.title }}
 
-p(meta). 07 Mayo 2010 - Madrid
+p(meta). 05 Mayo 2010 - Madrid
 
-Me he dado cuenta de una cosa importante. Un documento inteligente y algo divertido llamado "Hyper-Local, Direction-Based Ranking of Places" (PDF), que se presentará en VLDB 2011 a finales de este año por algunos Googlers. 
+Me he dado cuenta de una cosa importante. Se ha publicado un documento inteligente, y hasta divertido, llamado "Hyper-Local, Direction-Based Ranking of Places" ("PDF":http://www.google.es/url?sa=t&source=web&cd=1&ved=0CCIQFjAA&url=http%3A%2F%2Fwww.vldb.org%2Fpvldb%2Fvol4%2Fp290-venetis.pdf&ei=vb7HTcnxI4St8gOXybT2Bw&usg=AFQjCNGx7zTLsTDlvxMhb5Qpt9oh9SUq7A), que se presentará en el VLDB 2011, a finales de este año, por algunos empleados de Google (Googlers).
 
-La idea central es que, cuando la gente pregunta cómo ir de A a B, se demuenstra
-que el usuario está interesado en B, sobretodo si resulta que está cerca de A.
+!/images/blog/como_llegar.png!
 
-Algunos de los más importantes motores de búsqueda tienen enormes registros de personas preguntando por direcciones de A a B, cientos de millones de personas y miles de millones de consultas de la A a la B.  Y, al parecer estos datos pueden ser tanto o más útil que comentarios de los usuarios de las empresas y tal vez los senderos de GPS para la clasificación de búsqueda local, recomendar lugares cercanos, y se ocupa de tal local y personalizado y publicidad.  
+La idea central es que, cuando la gente pregunta cómo ir de A a B, se demuenstra que el usuario está interesado en B, especialmente si está cerca de A.
 
-Un fragmento del documento en cuestión:
+Algunos de los más importantes motores de búsqueda tienen gigantescos registros de personas preguntando por direcciones de A a B, cientos de millones de personas y miles de millones de consultas de la A a la B. Creo que esta información puede ser más útil que los comentarios de los usuarios para proponer sugerencias de comercios cercanos basado en la geolocalización, tanto por petición del usuario como por publicidad. 
+
+Un fragmento del documento en cuestión (traducción mía):
 
 bq. Una consulta que pide direcciones desde ubicación A a ubicación B da a entender que el usuario está interesado en trasladarse a B, y por lo tanto indica que la ubicación B es interesante. Tales consultas de cómo llegar que generan los usuarios son especialmente interesantes porque son numerosas y contienen ubicaciones precisas. 
 
-bq. Consultas de cómo llegar pueden ser explotadas para la clasificación de los lugares ... Por lo menos 20% de las consultas web tienen como objetivo locales comerciales ... objetivos que [desde los móviles] pueden ser hasta dos veces mayor. 
+bq. Consultas de cómo llegar pueden ser explotadas para la clasificación de los lugares de ocio ... Por lo menos 20% de las consultas web tienen como objetivo locales comerciales ... objetivos que [desde los móviles] pueden ser hasta dos veces mayor. 
 
 bq. Un estudio muestra que los logs de "cómo llegar" pueden sirve como un indicio importante, además de los comentarios, para clasificar la ubicación de destino ...  Estos hallazgos son importantes porque la dirección de marcha los registros de órdenes de magnitud más frecuentes que los comentarios de los usuarios, que son difíciles de obtener.  Además, los registros proporcionan pruebas en tiempo real de sentimientos cambiantes ... y están disponibles para un rango más diverso de lugares. 
 
-Lo que es realmente interesante es que no sólo se trata de datos más fáciles y
-más baratos de obtener que las opiniones de clientes, pero también que la
-clasificación es más actual (si, por ejemplo, un negocio cierra sus puertas o si
-cambia de propietario o de zona) y posee una cobertura mucho más completa. 
+Lo que es realmente interesante es que no sólo se trata de datos más fáciles y más baratos de obtener que las opiniones de clientes, pero también que la clasificación es más actual (si, por ejemplo, un negocio cierra sus puertas o si cambia de propietario o de zona) y posee una cobertura mucho más completa. 
 
-Me resulta sorprendente que Google no haya hecho uso de estos datos.  De hecho, el documento sugiere que Google está empezando a usarlos.  Al final del artículo, los autores resaltan que su objetivo es investigar qué tipos de consultas se benefician más de estos datos y así poder crear clasificaciones y personalizaciones basadas en la búsqueda, haciéndola específica para cada usuario y según el historial del destino.
+Me resulta sorprendente que Google no esté utilizando esta información. De hecho, el documento sugiere que Google estaría empezando a usarlos.  Al final del artículo, los autores resaltan que su objetivo es investigar qué tipos de consultas se benefician más de estos datos y así poder crear clasificaciones y personalizaciones basadas en la búsqueda, haciéndola específica para cada usuario y según el historial del destino.
 
 
 

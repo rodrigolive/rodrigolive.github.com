@@ -1,0 +1,11 @@
+blockquote {
+	margin: 1em 20px;
+	padding-left: 50px;
+    font-style: italic;
+    color: #606060;
+}
+
+#abstract {
+	margin-left: 100px;
+    color: #808080;
+}
